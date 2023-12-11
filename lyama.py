@@ -202,10 +202,10 @@ import getpass
 attemps = 0
 
 while attemps < 12345677901:
-    username = input(' \033[0;92mEnter Username: ')
-    password = input(' \033[0;93mEnter Password: ')
-    if username == 'BRO' and password == 'BRO':
-        print(' \033[0;92mYou Have Successfully Logged in.')
+  #  username = input(' \033[0;92mEnter Username: ')
+ #   password = input(' \033[0;93mEnter Password: ')
+   # if username == 'BRO' and password == 'BRO':
+   #     print(' \033[0;92mYou Have Successfully Logged in.')
         break
   
 logo =""" 

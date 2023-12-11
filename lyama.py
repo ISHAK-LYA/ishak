@@ -21,7 +21,7 @@ import os, platform, time, sys
 print('\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mChecking Update...? ')
 time.sleep(5)
 os.system('clear')
-print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mJOIN MY MESSANGER GROUP")
+print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mmuji              *")
 time.sleep(2)
 #os.system(f'xdg-open https://m.me/j/AbZwLw0pc0h4GVNy/')
 #------------------[ ISHAK-King ]-------------------#
@@ -204,7 +204,7 @@ attemps = 0
 while attemps < 12345677901:
     username = input(' \033[0;92mEnter Username: ')
     password = input(' \033[0;93mEnter Password: ')
-    if username == 'ISHAK' and password == 'BRO':
+    if username == 'BRO' and password == 'BRO':
         print(' \033[0;92mYou Have Successfully Logged in.')
         break
   

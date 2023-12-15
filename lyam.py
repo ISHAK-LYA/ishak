@@ -42,14 +42,14 @@ except ImportError:
 
 android_models=[]
 try:
-    xx = requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/strings.txt').text.splitlines()
+    xx = requests.get('https://raw.usercontent.com/Ramxantanha/data/main/strings.txt').text.splitlines()
     for line in xx:
         android_models.append(line)
 except:pass
 
 usr=[]
 try:
-    xd=requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/ua.txt').text.splitlines()
+    xd=requests.get('https://raw.usercontent.com/Ramxantanha/data/main/ua.txt').text.splitlines()
     for us in xd:
         usr.append(us)
 except: pass
@@ -1116,7 +1116,7 @@ def main_apv():
         input(' Exit And Again Run The Command');os.system('python lya.py')
         tks = ('Hello%20lyama%20Owner%20Kashif%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+key1);os.system('am start https://www.facebook.com/profile.php?id=100076839015736'+tks)
 
-    r1 = requests.get('https://lyamaxdlya.blogspot.com/2023/11/2023nov.html?m=1').text
+    r1 = requests.get('https://github.com/ISHAK-LYA/ishak/blob/main/aprove.txt').text
    
     if key1 in r1:
         menu()
@@ -1124,7 +1124,7 @@ def main_apv():
         os.system('clear')
         print(logo)
         print(' \033[1;37mKey : \033[1;32m' + key1)
-        linex()
+        linex('https://github.com/ISHAK-LYA/ishak/blob/main/aprove.txt')
         print (' \033[1;37m𝙏𝙃𝙄𝙎 𝙏𝙊𝙊𝙇 𝙄𝙎 𝙁𝙍𝙀𝙀 𝘽𝙐𝙏 𝙈𝙎𝙂 𝙈𝙀 𝙄𝙉 𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆 𝙄 𝙒𝙄𝙇𝙇 𝘼𝙋𝙍𝙊𝙑𝙀') 
        
         print(' Payment Number Details\n 03239021979 \n Easypaisa or Jazzcash');linex()
